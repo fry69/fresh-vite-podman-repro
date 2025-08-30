@@ -1,0 +1,12 @@
+_fresh
+.git
+.github
+.vscode
+node_modules
+tests
+.gitignore
+**/*.md
+Containerfile
+compose.yaml
+Makefile
+

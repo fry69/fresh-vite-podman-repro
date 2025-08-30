@@ -1,0 +1,28 @@
+services:
+  app:
+    build:
+      context: ./${PROJECT_DIR}
+      dockerfile: Containerfile
+      args:
+        GIT_REVISION: ${GIT_REVISION}
+    image: ${IMAGE_NAME}:latest
+
+    # Working directory inside the container
+    working_dir: /app
+
+    # Port mappings (host:container)
+    ports:
+      - "${EXTERNAL_PORT}:8000"
+      # - "127.0.0.1:${EXTERNAL_PORT}:8000" # Bind to localhost only
+
+    # Environment variables
+    # Override these in your shell environment or .env file:
+    # export APP_PUBLIC_URL="https://your-domain.com"
+    # export APP_REPOSITORY_URL="https://github.com/your-username/your-repo"
+    environment:
+      - APP_PUBLIC_URL=${APP_PUBLIC_URL:-http://localhost:8000}
+      - APP_REPOSITORY_URL=${APP_REPOSITORY_URL:-}
+      - APP_STORAGE_PUBLIC_URL
+      - APP_BUILD_STRING
+      - NODE_ENV=${NODE_ENV:-production}
+      - PORT=8000
