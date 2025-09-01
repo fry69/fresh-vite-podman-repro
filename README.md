@@ -21,6 +21,7 @@ Error: building at STEP "RUN deno task build": while running runtime: exit statu
 ## Setup
 
 Laptop:
+
 ```shell
 $ uname -a
 Darwin macbookair.local 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:34 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8103 arm64
@@ -30,6 +31,7 @@ podman version 5.6.0
 ```
 
 Remote build machine:
+
 ```shell
 $ podman version
 Client:        Podman Engine
