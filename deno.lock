@@ -41,6 +41,7 @@
     "npm:preact@^10.27.1": "10.27.1",
     "npm:rollup@^4.50.0": "4.50.0",
     "npm:tailwindcss@^4.1.12": "4.1.12",
+    "npm:vite@7.1.4": "7.1.4_picomatch@4.0.3_@types+node@24.2.0",
     "npm:vite@^7.1.4": "7.1.4_picomatch@4.0.3_@types+node@24.2.0"
   },
   "jsr": {
@@ -97,7 +98,7 @@
         "npm:@mjackson/node-fetch-server",
         "npm:@prefresh/vite",
         "npm:rollup",
-        "npm:vite"
+        "npm:vite@^7.1.4"
       ]
     },
     "@std/bytes@1.0.6": {
