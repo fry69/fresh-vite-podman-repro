@@ -7,7 +7,7 @@
     "jsr:@fresh/build-id@1": "1.0.1",
     "jsr:@fresh/core@^2.0.0-alpha.60": "2.0.0-beta.3",
     "jsr:@fresh/core@^2.0.0-beta.3": "2.0.0-beta.3",
-    "jsr:@fresh/plugin-vite@~0.9.10": "0.9.10",
+    "jsr:@fresh/plugin-vite@~0.9.11": "0.9.11",
     "jsr:@std/bytes@^1.0.6": "1.0.6",
     "jsr:@std/encoding@1": "1.0.10",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
@@ -41,7 +41,6 @@
     "npm:preact@^10.27.1": "10.27.1",
     "npm:rollup@^4.50.0": "4.50.0",
     "npm:tailwindcss@^4.1.12": "4.1.12",
-    "npm:vite@7.1.4": "7.1.4_picomatch@4.0.3_@types+node@24.2.0",
     "npm:vite@^7.1.4": "7.1.4_picomatch@4.0.3_@types+node@24.2.0"
   },
   "jsr": {
@@ -85,8 +84,8 @@
         "npm:preact@^10.27.0"
       ]
     },
-    "@fresh/plugin-vite@0.9.10": {
-      "integrity": "6555c108637c306b8ca829b0003aaac821a58e1abdb199353de7caadc4c940ff",
+    "@fresh/plugin-vite@0.9.11": {
+      "integrity": "4d4c3bba02b4f411f056367331fd6bf4304789020aafb26478193b4d4746558a",
       "dependencies": [
         "jsr:@deno/loader@~0.3.2",
         "jsr:@fresh/core@^2.0.0-alpha.60",
@@ -98,7 +97,7 @@
         "npm:@mjackson/node-fetch-server",
         "npm:@prefresh/vite",
         "npm:rollup",
-        "npm:vite@^7.1.4"
+        "npm:vite"
       ]
     },
     "@std/bytes@1.0.6": {
@@ -1362,7 +1361,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@fresh/core@^2.0.0-beta.3",
-      "jsr:@fresh/plugin-vite@~0.9.10",
+      "jsr:@fresh/plugin-vite@~0.9.11",
       "npm:@preact/signals@^2.3.1",
       "npm:@tailwindcss/vite@^4.1.12",
       "npm:preact@^10.27.1",
