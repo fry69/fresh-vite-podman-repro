@@ -20,13 +20,13 @@
     "**/_fresh/*"
   ],
   "imports": {
-    "fresh": "jsr:@fresh/core@^2.0.0-beta.3",
+    "fresh": "jsr:@fresh/core@^2.0.0-beta.4",
     "preact": "npm:preact@^10.27.1",
     "@preact/signals": "npm:@preact/signals@^2.3.1",
-    "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^0.9.11",
-    "vite": "npm:vite@^7.1.4",
-    "tailwindcss": "npm:tailwindcss@^4.1.12",
-    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.12"
+    "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^0.9.13",
+    "vite": "npm:vite@^7.1.5",
+    "tailwindcss": "npm:tailwindcss@^4.1.13",
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.13"
   },
   "compilerOptions": {
     "lib": [
